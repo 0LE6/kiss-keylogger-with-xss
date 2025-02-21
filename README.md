@@ -14,6 +14,7 @@ After that, just follow this commands:
 
 
 ```bash
+cd kiss-keylogger-with-xss/
 chmod +x run_docker.sh
 ./run_docker.sh
 
